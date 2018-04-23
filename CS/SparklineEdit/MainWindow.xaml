@@ -1,0 +1,49 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        x:Class="SparklineEdit.MainWindow"
+        Title="MainWindow" Height="228" Width="525" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <System:String x:Key="Limit1">01/02/2000</System:String>
+        <System:String x:Key="Limit2">01/07/2000</System:String>
+    </Window.Resources>
+    <Grid x:Name="grid">
+        <dxe:SparklineEdit EditValue="{Binding SourceCollection}" 
+                           PointValueMember="ValueColumn" PointArgumentMember="ArgumentColumn" >
+            <dxe:SparklineEdit.PointArgumentRange>
+                <dxe:Range Auto="False"
+                    Limit1="{Binding Source={StaticResource ResourceKey=Limit1}}" 
+                    Limit2="{Binding Source={StaticResource ResourceKey=Limit2}}" />
+            </dxe:SparklineEdit.PointArgumentRange>
+            <dxe:SparklineEdit.StyleSettings>
+                <dxe:AreaSparklineStyleSettings 
+                    LineWidth="3"
+                    AreaOpacity="0.5"
+                    ShowMarkers="True" 
+                    
+                    MarkerSize="3"
+                    MaxPointMarkerSize="10"
+                    MinPointMarkerSize="9"
+                    StartPointMarkerSize="8"
+                    EndPointMarkerSize="7"
+                    NegativePointMarkerSize="6"
+                    
+                    HighlightMaxPoint="True" 
+                    HighlightMinPoint="True" 
+                    HighlightStartPoint="True"
+                    HighlightEndPoint="True"
+                    HighlightNegativePoints="True"
+                    
+                    Brush="DarkBlue"
+                    MaxPointBrush="#FFF5DA2A"
+                    MinPointBrush="#FF2B0DEA"
+                    StartPointBrush="#FF127A0D"
+                    EndPointBrush="#FFF71616"
+                    NegativePointBrush="#FF9C0404"
+                    MarkerBrush="Black" />
+            </dxe:SparklineEdit.StyleSettings>
+        </dxe:SparklineEdit>
+    </Grid>
+</Window>
