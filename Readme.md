@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/SparklineEdit/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/SparklineEdit/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/SparklineEdit/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/SparklineEdit/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/SparklineEdit/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/SparklineEdit/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to create a Sparkline control
 
