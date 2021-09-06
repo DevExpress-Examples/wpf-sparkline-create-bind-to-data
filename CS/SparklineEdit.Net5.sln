@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SparklineEdit", "SparklineEdit\SparklineEdit.vbproj", "{C33F1AF7-09CC-42B9-9E35-951D7F2C8218}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparklineEdit", "SparklineEdit\SparklineEdit.Net5.csproj", "{C33F1AF7-09CC-42B9-9E35-951D7F2C8218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
