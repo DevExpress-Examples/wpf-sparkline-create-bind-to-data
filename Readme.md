@@ -3,17 +3,23 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4982)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
+
+# WPF SparklineEdit - Create a Standalone Sparkline Control
+
+This example demonstrates how to create a [SparklineEdit](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.SparklineEdit) control, bind it to runtime data (a collection of `CustomElement` objects), customize style and argument range settings.
+
+![WPF SparklineEdit - Create a Standalone Sparkline Control, DevExpress](https://raw.githubusercontent.com/DevExpress-Examples/how-to-create-a-sparkline-control-e4982/22.2.2%2B/i/wpf-sparklineedit-devexpress.png)
+
+## Files to Review
 
 * [MainWindow.xaml](./CS/SparklineEdit/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/SparklineEdit/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/SparklineEdit/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/SparklineEdit/MainWindow.xaml.vb))
-<!-- default file list end -->
-# How to create a Sparkline control
 
+## Documentation
 
-<p>This example demonstrates how to provide data for a standalone SparklineEdit control and adjust its main properties.</p>
+* [SparklineEdit](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.SparklineEdit)
+* [SparklineEditSettings](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.Settings.SparklineEditSettings)
 
-<br/>
+## Related Examples
 
-
+* [WPF Data Grid - Display Sparklines](https://github.com/DevExpress-Examples/wpf-data-grid-show-sparklines)
