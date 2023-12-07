@@ -6,7 +6,7 @@
 
 # WPF SparklineEdit - Create a Standalone Sparkline Control
 
-This example demonstrates how to create a [SparklineEdit](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.SparklineEdit) control, bind it to runtime data (a collection of `CustomElement` objects), customize style and argument range settings.
+This example demonstrates how to create a [SparklineEdit](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.SparklineEdit) control, bind it to runtime data (a collection of `CustomElement` objects), and customize style and argument range settings.
 
 ![WPF SparklineEdit - Create a Standalone Sparkline Control, DevExpress](https://raw.githubusercontent.com/DevExpress-Examples/how-to-create-a-sparkline-control-e4982/22.2.2%2B/i/wpf-sparklineedit-devexpress.png)
 
